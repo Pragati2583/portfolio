@@ -1,0 +1,122 @@
+*{ 
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: rgb(11, 11, 12);
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: rgb(20, 8, 90);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li a{
+    text-decoration:none;
+    margin:23px;
+    color:white;
+}
+nav ul li a:hover{
+    
+    color:rgb(189, 175, 237);
+}
+.firstsection{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px 0;
+}
+.firstsection>div{
+    width: 30%;
+}
+.leftsection{
+    margin-top: 50px;
+    font-size: 3rem;
+    margin: 30px 0;
+}
+.left{
+    font-size:1.5rem;
+}
+.rightsection img{
+    background-color: red;
+    width: 100%;
+    margin: 50px;
+}
+.purple{
+    color:rgb(170, 107, 228);
+}
+.text-grey{
+    color: gray;
+}
+#element{
+    color:rgb(170, 107, 228);
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondsection h1{
+    font-size :2rem;
+    
+}
+.box{
+    background:white;
+    width: 80vw;
+    height: 2px;
+    margin: 50px 0;
+    display: flex;
+}
+.vertical{
+    height:93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.images-top{
+    width:23px;
+    position: relative;
+    top: -32px;
+    left: -1px;
+}
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+.vertical-desc{
+    position: relative;
+    top: 119px;
+    color:gray;
+    width: 150px;
+    font-size: 9px;
+}
+footer{
+    background-color:rgb(42, 19, 50);
+    height: 0px;
+}
+
+.footer{
+    display:flex;
+    margin:23px 122px;
+    justify-content: space-evenly;
+}
+ul{
+    list-style: none;
+}
+.footer>div{
+    width: 223px;
+}
+footer .footer-rights{
+   text-align: center;
+   color: gray;
+}
